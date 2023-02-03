@@ -5,13 +5,122 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind</title>
 </head>
 
 <body>
-    <h1 class="text-center p-20 text-white bg-green-700 rounded">demo</h1>
+    <header class="bg-white">
+        <div class="container mx-auto">
+            <nav class="nav flex justify-between pt-10 pb-10 items-center">
+                <ul class="nav__ul flex gap-10">
+                    <li class="nav__ul--list">
+                        <a href="#" class="nav__ul--list-link">About Us</a>
+                    </li>
+                    <li class="nav__ul--list">
+                        <a href="#" class="nav__ul--list-link">Service</a>
+                    </li>
+                    <li class="nav__ul--list">
+                        <a href="#" class="nav__ul--list-link">Menu</a>
+                    </li>
+                    <li class="nav__ul--list">
+                        <a href="#" class="nav__ul--list-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__logo">
+                    <img src="/images/planet-earth (1) 1.svg" alt="" />
+                </div>
+                <div class="nav__btn gap-10">
+                    <i class="fa-solid fa-magnifying-glass pl-10 cursor-pointer"></i>
+                    <i class="fa-solid fa-cart-shopping px-10 cursor-pointer"></i>
+                    <button class="bg-green-500 py-3 px-5 text-white rounded cursor-pointer">
+              Regestar Now
+            </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container mx-auto">
+            <div class="intro__items">
+                <h1 class="text-center pt-20 text-5xl font-bold">
+                    Organic Fruit & Vegetables
+                </h1>
+                <p class="w-96 m-auto text-center pt-5 text-gray-500 pb-14">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...
+                </p>
+                <div class="intro__items--btn flex items-center gap-5 justify-center pb-5">
+                    <p>Order Now</p>
+                    <i class="fa-solid fa-angles-right bg-green-600 p-5 rounded-full text-white"></i>
+                </div>
+            </div>
+            <div class="intro__bottom flex justify-between">
+                <div class="intro__bottom--img">
+                    <img src="/images/vegetables-fruits-white_55883-892 1.png" alt="" />
+                </div>
+                <div class="intro__bottom--statistics">
+                    <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
+                        <img src="/images/Group 5246.svg" alt="" />
+                        <div class="item__text">
+                            <h1 class="text-5xl">30K</h1>
+                            <p class="text-base pt-1">User Order</p>
+                        </div>
+                    </div>
+                    <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
+                        <img src="/images/Group 5249.svg" alt="" />
+                        <div class="item__text">
+                            <h1 class="text-5xl">20K</h1>
+                            <p class="text-base pt-1">Reviews(4.8)</p>
+                        </div>
+                    </div>
+                    <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
+                        <img src="/images/Group 5247.svg" alt="" />
+                        <div class="item__text">
+                            <h1 class="text-5xl">300</h1>
+                            <p class="text-base pt-1">Items</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-slate-100">
+        <div class="container mx-auto">
+            <div class="footer__items flex justify-between mt-36 pt-16 pb-16">
+                <div class="footer__items--item">
+                    <img src="/images/planet-earth (1) 1.svg" class="pb-7" alt="" />
+                    <p class="w-80">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...
+                    </p>
+                </div>
+                <div class="footer__items--item flex flex-col">
+                    <h5 class="text-2xl font-semibold pb-10">Navigation</h5>
+                    <a href="#" class="pb-4">About Us</a>
+                    <a href="#" class="pb-4">Service</a>
+                    <a href="#" class="pb-4">Menu</a>
+                </div>
+                <div class="footer__items--item flex flex-col">
+                    <h5 class="text-2xl font-semibold pb-10">Resources</h5>
+                    <a href="#" class="pb-4">Reviews</a>
+                    <a href="#" class="pb-4">Blog</a>
+                    <a href="#" class="pb-4">Update News</a>
+                </div>
+                <div class="footer__items--item flex flex-col">
+                    <h5 class="text-2xl font-semibold pb-10">Contact Us</h5>
+                    <p class="pb-4">Email: oyasim@email.com</p>
+                    <div class="footer__items--item-socials flex gap-12 text-2xl">
+                        <i class="fa-brands fa-facebook-f cursor-pointer"></i>
+                        <i class="fa-brands fa-instagram cursor-pointer"></i>
+                        <i class="fa-brands fa-twitter cursor-pointer"></i>
+                    </div>
+                </div>
+
+            </div>
+    </footer>
 </body>
 
 </html>
