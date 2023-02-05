@@ -11,6 +11,8 @@
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles/main.css" />
 </head>
 
 <body>
@@ -19,108 +21,300 @@
             <nav class="nav flex justify-between pt-10 pb-10 items-center">
                 <ul class="nav__ul flex gap-10">
                     <li class="nav__ul--list">
-                        <a href="#" class="nav__ul--list-link">About Us</a>
-                    </li>
-                    <li class="nav__ul--list">
-                        <a href="#" class="nav__ul--list-link">Service</a>
-                    </li>
-                    <li class="nav__ul--list">
-                        <a href="#" class="nav__ul--list-link">Menu</a>
-                    </li>
-                    <li class="nav__ul--list">
-                        <a href="#" class="nav__ul--list-link">Contact</a>
-                    </li>
-                </ul>
-                <div class="nav__logo">
-                    <img src="/images/planet-earth (1) 1.svg" alt="" />
-                </div>
-                <div class="nav__btn gap-10">
-                    <i class="fa-solid fa-magnifying-glass pl-10 cursor-pointer"></i>
-                    <i class="fa-solid fa-cart-shopping px-10 cursor-pointer"></i>
-                    <button class="bg-green-500 py-3 px-5 text-white rounded cursor-pointer">
+                        <a href="#" class="nav__ul--list-link hover:text-green-500 ease-in duration-100">About Us</a
+              >
+            </li>
+            <li class="nav__ul--list">
+              <a
+                href="#"
+                class="nav__ul--list-link hover:text-green-500 ease-in duration-100"
+                >Service</a
+              >
+            </li>
+            <li class="nav__ul--list">
+              <a
+                href="#"
+                class="nav__ul--list-link hover:text-green-500 ease-in duration-100"
+                >Menu</a
+              >
+            </li>
+            <li class="nav__ul--list">
+              <a
+                href="#"
+                class="nav__ul--list-link hover:text-green-500 ease-in duration-100"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div
+            class="nav__logo cursor-pointer hover:rotate-180 ease-in-out duration-300"
+          >
+            <img src="/images/planet-earth (1) 1.svg" alt="" />
+          </div>
+          <div class="nav__btn gap-10">
+            <i class="fa-solid fa-magnifying-glass pl-10 cursor-pointer"></i>
+            <i class="fa-solid fa-cart-shopping px-10 cursor-pointer"></i>
+            <button
+              class="bg-green-500 py-3 px-5 text-white rounded cursor-pointer hover:bg-green-800 ease-in-out duration-200"
+            >
               Regestar Now
             </button>
-                </div>
-            </nav>
-        </div>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-        <div class="container mx-auto">
-            <div class="intro__items">
-                <h1 class="text-center pt-20 text-5xl font-bold">
-                    Organic Fruit & Vegetables
-                </h1>
-                <p class="w-96 m-auto text-center pt-5 text-gray-500 pb-14">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...
-                </p>
-                <div class="intro__items--btn flex items-center gap-5 justify-center pb-5">
-                    <p>Order Now</p>
-                    <i class="fa-solid fa-angles-right bg-green-600 p-5 rounded-full text-white"></i>
-                </div>
-            </div>
-            <div class="intro__bottom flex justify-between">
-                <div class="intro__bottom--img">
-                    <img src="/images/vegetables-fruits-white_55883-892 1.png" alt="" />
-                </div>
-                <div class="intro__bottom--statistics">
-                    <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
-                        <img src="/images/Group 5246.svg" alt="" />
-                        <div class="item__text">
-                            <h1 class="text-5xl">30K</h1>
-                            <p class="text-base pt-1">User Order</p>
-                        </div>
-                    </div>
-                    <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
-                        <img src="/images/Group 5249.svg" alt="" />
-                        <div class="item__text">
-                            <h1 class="text-5xl">20K</h1>
-                            <p class="text-base pt-1">Reviews(4.8)</p>
-                        </div>
-                    </div>
-                    <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
-                        <img src="/images/Group 5247.svg" alt="" />
-                        <div class="item__text">
-                            <h1 class="text-5xl">300</h1>
-                            <p class="text-base pt-1">Items</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container mx-auto">
+        <div class="intro__items">
+          <h1 class="text-center pt-20 text-5xl font-bold">
+            Organic Fruit & Vegetables
+          </h1>
+          <p class="w-96 m-auto text-center pt-5 text-gray-500 pb-14">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley...
+          </p>
+          <div
+            class="intro__items--btn flex items-center gap-5 justify-center pb-5"
+          >
+            <p>Order Now</p>
+            <i
+              class="fa-solid fa-angles-right bg-green-600 p-5 rounded-full text-white hover:bg-green-800 ease-in-out duration-200 cursor-pointer"
+            ></i>
+          </div>
         </div>
-    </main>
-    <footer class="bg-slate-100">
-        <div class="container mx-auto">
-            <div class="footer__items flex justify-between mt-36 pt-16 pb-16">
-                <div class="footer__items--item">
-                    <img src="/images/planet-earth (1) 1.svg" class="pb-7" alt="" />
-                    <p class="w-80">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer...
-                    </p>
-                </div>
-                <div class="footer__items--item flex flex-col">
-                    <h5 class="text-2xl font-semibold pb-10">Navigation</h5>
-                    <a href="#" class="pb-4">About Us</a>
-                    <a href="#" class="pb-4">Service</a>
-                    <a href="#" class="pb-4">Menu</a>
-                </div>
-                <div class="footer__items--item flex flex-col">
-                    <h5 class="text-2xl font-semibold pb-10">Resources</h5>
-                    <a href="#" class="pb-4">Reviews</a>
-                    <a href="#" class="pb-4">Blog</a>
-                    <a href="#" class="pb-4">Update News</a>
-                </div>
-                <div class="footer__items--item flex flex-col">
-                    <h5 class="text-2xl font-semibold pb-10">Contact Us</h5>
-                    <p class="pb-4">Email: oyasim@email.com</p>
-                    <div class="footer__items--item-socials flex gap-12 text-2xl">
-                        <i class="fa-brands fa-facebook-f cursor-pointer"></i>
-                        <i class="fa-brands fa-instagram cursor-pointer"></i>
-                        <i class="fa-brands fa-twitter cursor-pointer"></i>
-                    </div>
-                </div>
-
+        <div class="intro__bottom flex justify-between">
+          <div class="intro__bottom--img">
+            <img src="/images/vegetables-fruits-white_55883-892 1.png" alt="" />
+          </div>
+          <div class="intro__bottom--statistics">
+            <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
+              <img src="/images/Group 5246.svg" alt="" />
+              <div class="item__text">
+                <h1 class="text-5xl">30K</h1>
+                <p class="text-base pt-1">User Order</p>
+              </div>
             </div>
+            <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
+              <img src="/images/Group 5249.svg" alt="" />
+              <div class="item__text">
+                <h1 class="text-5xl">20K</h1>
+                <p class="text-base pt-1">Reviews(4.8)</p>
+              </div>
+            </div>
+            <div class="intro__bottom--statistics-item flex gap-6 py-5 px-11">
+              <img src="/images/Group 5247.svg" alt="" />
+              <div class="item__text">
+                <h1 class="text-5xl">300</h1>
+                <p class="text-base pt-1">Items</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section>
+      <div class="container mx-auto">
+        <div class="services">
+          <div class="services__title">
+            <h1 class="text-5xl pb-5 pt-36 font-bold">Why We Aer The Best?</h1>
+            <p class="w-96 pb-14 text-gray-500">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley...
+            </p>
+          </div>
+          <div class="services__items flex justify-around">
+            <div class="services__items--item">
+              <div
+                class="services__items--item-card flex gap-6 py-10 px-14 cursor-pointer mb-2 hover:bg-green-100 ease-in duration-100"
+              >
+                <img src="/images/Group 5246.svg" alt="logo" />
+                <div class="text">
+                  <h5 class="font-bold text-lg">Fasted delivery Service</h5>
+                  <p class="w-64 pt-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="services__items--item-card flex gap-6 py-10 px-14 cursor-pointer mb-2 hover:bg-green-100 ease-in duration-100"
+              >
+                <img src="/images/Group 5247.svg" alt="logo" />
+                <div class="text">
+                  <h5 class="font-bold text-lg">Fasted delivery Service</h5>
+                  <p class="w-64 pt-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="services__items--item-card flex gap-6 py-10 px-14 cursor-pointer mb-2 hover:bg-green-100 ease-in duration-100"
+              >
+                <img src="/images/Group 5249.svg" alt="logo" />
+                <div class="text">
+                  <h5 class="font-bold text-lg">Fasted delivery Service</h5>
+                  <p class="w-64 pt-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="services__items--item bg-green-500 rounded-full w-96 h-96"
+            >
+              <img
+                src="/images/groceries-packages-delivery-covid-19-quarantine-shopping-concept-smiling-handsome-bearded-courier-red-uniform-bring-food-package-grocery-order-client-box-look-amused_1258-16715-removebg-preview 1.png"
+                alt=""
+                class="img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-green-100 h-screen mt-36">
+      <div class="container mx-auto">
+        <div class="about">
+          <div class="about__items flex pt-20 gap-12 items-center">
+            <div class="about__items--img">
+              <img src="/images/aboutPNG.png" alt="" />
+            </div>
+            <div class="about__items--info">
+              <h1 class="text-6xl font-bold pb-5">
+                Explor Our Special <br />
+                Items
+              </h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                <br />
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text <br />
+                ever since the 1500s, when an unknown printer...
+              </p>
+              <div class="intro__items--btn flex items-center gap-5 pt-12">
+                <p>Explor Now</p>
+                <i
+                  class="fa-solid fa-angles-right bg-green-600 p-5 rounded-full text-white hover:bg-green-800 ease-in-out duration-200 cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mx-auto">
+        <div class="about__us pt-24">
+          <div class="about__us--items flex justify-between">
+            <div class="about__us--items-info">
+              <h1 class="text-6xl font-bold pb-7">
+                What Our Customers <br />
+                About Us saying
+              </h1>
+              <p class="w-96 text-gray-500 text-lg">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularis
+              </p>
+              <h5 class="text-2xl pt-10 font-medium">Ahmed Hridoy</h5>
+              <div class="starts flex gap-2 pt-5">
+                <img src="/images/star.svg" alt="" />
+                <img src="/images/star.svg" alt="" />
+                <img src="/images/star.svg" alt="" />
+                <img src="/images/star.svg" alt="" />
+                <img src="/images/star.svg" alt="" />
+              </div>
+            </div>
+            <div class="about__us--items-img">
+              <img src="/images/Group 5285.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mx-auto">
+        <div class="contact pt-40">
+          <div class="contact__items flex justify-around">
+            <div class="contact__items--img">
+              <img src="/images/phone.png" alt="" />
+            </div>
+            <div class="contact__items--info">
+              <h5 class="bg-green-100 rounded-3xl py-3 px-6 inline-block mb-4">
+                Download App
+              </h5>
+              <h1 class="text-6xl font-bold">
+                Simple Way To Order <br />
+                Your Organic Fruit
+              </h1>
+              <p class="pt-5 text-gray-500 pb-12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                <br />
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text <br />
+                ever since the 1500s, when an unknown printer...
+              </p>
+              <div class="contact__items--info-img flex gap-6">
+                <img src="/images/App Store - eng.png" alt="" />
+                <img src="/images/Google Play - eng.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-slate-100">
+      <div class="container mx-auto">
+        <div class="footer__items flex justify-between mt-36 pt-16 pb-16">
+          <div class="footer__items--item">
+            <img
+              src="/images/planet-earth (1) 1.svg"
+              class="pb-7 hover:scale-150 cursor-pointer duration-300"
+              alt=""
+            />
+            <p class="w-80">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer...
+            </p>
+          </div>
+          <div class="footer__items--item flex flex-col">
+            <h5 class="text-2xl font-semibold pb-10">Navigation</h5>
+            <a href="#" class="pb-4 hover:translate-x-2 duration-150"
+              >About Us</a
+            >
+            <a href="#" class="pb-4 hover:translate-x-2 duration-150"
+              >Service</a
+            >
+            <a href="#" class="pb-4 hover:translate-x-2 duration-150">Menu</a>
+        </div>
+        <div class="footer__items--item flex flex-col">
+            <h5 class="text-2xl font-semibold pb-10">Resources</h5>
+            <a href="#" class="pb-4 hover:translate-x-2 duration-150">Reviews</a
+            >
+            <a href="#" class="pb-4 hover:translate-x-2 duration-150">Blog</a>
+            <a href="#" class="pb-4 hover:translate-x-2 duration-150">Update News</a
+            >
+          </div>
+          <div class="footer__items--item flex flex-col">
+            <h5 class="text-2xl font-semibold pb-10">Contact Us</h5>
+            <p class="pb-4">Email: oyasim@email.com</p>
+            <div class="footer__items--item-socials flex gap-12 text-2xl">
+              <i class="fa-brands fa-facebook-f cursor-pointer"></i>
+              <i class="fa-brands fa-instagram cursor-pointer"></i>
+              <i class="fa-brands fa-twitter cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
